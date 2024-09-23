@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CsvFileAttributes">
+    <option name="attributeMap">
+      <map>
+        <entry key="\LSTM_PyTorch_Electric-Load-Forecasting\ETTh1(4).csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\LSTM_PyTorch_Electric-Load-Forecasting\LSTM-pytorch\ETTh1.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\LSTM_PyTorch_Electric-Load-Forecasting\LSTM-pytorch\ETTh13.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\LSTM_PyTorch_Electric-Load-Forecasting\LSTM-pytorch\dataset\YearlyEliaGridLoadByQuarterHour_2022.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=":" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\LSTM_PyTorch_Electric-Load-Forecasting\LSTM-pytorch\dataset\processed_dataset.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\LSTM_PyTorch_Electric-Load-Forecasting\LSTM-pytorch\dataset\test_dataset.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\LSTM_PyTorch_Electric-Load-Forecasting\LSTM-pytorch\dataset\train_dataset.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\LSTM_PyTorch_Electric-Load-Forecasting\LSTM-pytorch\dataset\val_dataset.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
