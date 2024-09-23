@@ -10,8 +10,8 @@ train_df = pd.read_csv('dataset/train_dataset.csv')
 val_df = pd.read_csv('dataset/val_dataset.csv')
 
 # 将数据集转换为PyTorch的Tensor
-train_data = torch.tensor(train_df['Elia Grid Load [MW]'].values, dtype=torch.float32).unsqueeze(1)
-val_data = torch.tensor(val_df['Elia Grid Load [MW]'].values, dtype=torch.float32).unsqueeze(1)
+train_data = torch.tensor(train_df['OT'].values, dtype=torch.float32).unsqueeze(1)
+val_data = torch.tensor(val_df['OT'].values, dtype=torch.float32).unsqueeze(1)
 
 # 创建训练集和验证集的数据集对象
 seq_length = 10
@@ -39,7 +39,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model.to(device)
 
 # 定义训练参数
-num_epochs = 10
+num_epochs = 40
 learning_rate = 0.001
 
 # 定义损失函数和优化器
